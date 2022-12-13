@@ -4,6 +4,24 @@
              xmlns:prism="http://prismlibrary.com/"             
              >
     <Grid>
-            
+        <ListView x:Name="CoinListView"   ItemsSource="{Binding WordCollectionView}" Height="{Binding ActualHeight, ElementName=BaseGrid, Mode=OneWay}" Margin="8" >
+            <ListView.View>
+                <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Word usage Information">
+
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Word}" Header="Coin Name" Width="100"/>
+
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Count}" Width="100">
+                        <GridViewColumnHeader>WordCount
+                            <GridViewColumnHeader.ContextMenu>
+                                <ContextMenu >
+                                    <MenuItem Header="Ascending" />
+                                    <MenuItem Header="Descending" />
+                                </ContextMenu>
+                            </GridViewColumnHeader.ContextMenu>
+                        </GridViewColumnHeader>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>
