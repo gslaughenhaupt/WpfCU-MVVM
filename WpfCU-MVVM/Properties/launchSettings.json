@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WpfCU-MVVM": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\gary\\Documents\\cutest.txt"
+    }
+  }
+}
