@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCU-MVVM", "WpfCU-MVVM\WpfCU-MVVM.csproj", "{1C2F6840-09CE-4A0A-943C-17F0DF654AA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C2F6840-09CE-4A0A-943C-17F0DF654AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2F6840-09CE-4A0A-943C-17F0DF654AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2F6840-09CE-4A0A-943C-17F0DF654AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2F6840-09CE-4A0A-943C-17F0DF654AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5A0FC98-080A-4637-861C-090934E3533A}
+	EndGlobalSection
+EndGlobal
